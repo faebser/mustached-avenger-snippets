@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+var ${1:moduleName} = (function (${2:argument}) {
+	// javascript module pattern
+	"use strict"; // enable strict mode for javascript module
+	// private vars
+	var module = {};
+	// private methods
+	// public methods
+	module.init = function () {
+	};
+	//return the module
+	return module;
+}());
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>module</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
+
+
